@@ -12,7 +12,11 @@ dict_reversed = {}  # define the variable dict_reversed, dictionary type
 dict = {'a':1,'b':2,'c':3,'d':4,'e':5,'f':6,'g':7,'h':8,'i':9,'j':10}
 
 
-def dictionary_reverse(dict):  # dict is the input dictionary from the user
+def dictionary_reverse(dict):
+    '''dictionary_reverse(dict) --> dictionary 
+    the function will reverse the keys and values of the input dictionary
+    the result will we new dictionary dict_reversed '''
+
     print('the input dictionary:')
     print(dict)
     print('--------------------------------------------------')
